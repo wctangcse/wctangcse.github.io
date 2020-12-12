@@ -13,22 +13,44 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Dr Matthew (Wai-Chung) Tang 鄧偉宗博士
+email: matthew.tang@qmul.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Lecturer; Embedded System Engineer; Love anything about electronics
 baseurl: "" # the subpath of your site, e.g. /blog
+locale: "en-GB"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: wctangcse
+github_username:  wctangcse
+logo: /images/mtang.png
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "/assets/css/skins/dark.css"
 plugins:
   - jekyll-feed
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+
+author: 
+    name: Matthew Tang
+    picture: /images/mtang.png
+    twitter: wctangcse
+
+search_full_content: false
+read_time: true
+words_per_minute: 200
+
+mathjax:
+    enable: true
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
