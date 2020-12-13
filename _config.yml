@@ -25,9 +25,17 @@ github_username:  wctangcse
 logo: /images/mtang.png
 
 # Build settings
-markdown: kramdown
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
-skin: "/assets/css/skins/dark.css"
+markdown: kramdown
+#kramdown:
+#    math_engine: mathjax
+#use_math: true
+# have to fix by inserting js in _includes/scripts.html
+#mathjax: 
+#    enable: true
+#    combo: "tex-svg"
+#    tags: "ams"
+#skin: "/assets/css/skins/dark.css"
 plugins:
   - jekyll-feed
 
@@ -46,8 +54,6 @@ search_full_content: false
 read_time: true
 words_per_minute: 200
 
-mathjax:
-    enable: true
 
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
