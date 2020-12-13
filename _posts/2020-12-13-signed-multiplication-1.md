@@ -6,7 +6,7 @@ categories: "computer arithmetic"
 ---
 Through the years my students repeatedly confuse with the theory of the signed
 multiplication. They do not understand why a correction is needed when the
-mutliplier (i.e. $B$ in $A\times B$) is negative. This is of course complicated
+mutliplier (i.e. $$B$$ in $$A\times B$$) is negative. This is of course complicated
 by the fact that negative numbers are expressed or represented by its 2's
 complement so that only addition is required through the procedure.
 
