@@ -2,7 +2,7 @@
 layout: post
 title:  "Signed Multiplication -- Part 1"
 date:   2020-12-13 10:02:07 +0000
-categories: "computer arithmetic"
+categories: Arithmetic
 ---
 Through the years my students repeatedly confuse with the theory of the signed
 multiplication. They do not understand why a correction is needed when the

@@ -2,7 +2,7 @@
 layout: post
 title:  "My new blog"
 date:   2020-12-12 08:00:00 +0000
-categories: general
+categories: General
 ---
 
 This is the first post in this new blog of mine. After teaching engineering of
