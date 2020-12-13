@@ -53,7 +53,7 @@ $$P = \sum_{i=0}^{N-1} A\times 2^ib_i = A\times\sum_{i=0}^{N-1}2^ib_i$$
 
 When $$B$$ is positive, it is obvious that
 $$P = A\times B$$
-which is the product that we expect, in a total of $2N$ bits and in 2's complement
+which is the product that we expect, in a total of $$2N$$ bits and in 2's complement
 representation.
 
 Nevertheless, when $$B$$ is negative, we can deduce that 
@@ -86,7 +86,9 @@ P + C &\mathrm{when}\ B < 0\\
 If there is a carry at bit position $$2N$$ (i.e. $$2^{2N}$$), it should be ignored.
 
 > Example 1: $$N = 4, A = -6, B = -3$$, then
+>
 > $$a = 10000_2 - 0110_2 = 1010_2 = 10$$, $$b = 10000_2 - 0011_2 = 1101_2 = 13$$
+>
 > $$P = 10110010_2$$ (carry discarded) which represents $$-78 = -6\times 2^4 + (-6)(-3)$$
 > $$C = 2^4(2^4 - (-6)) = 16(16 + 6) = 352 = 256 + 92$$
 > $$P + C = -78 + 352 = 256 + 18 = 2^8 + 18$$
