@@ -16,7 +16,7 @@ applied to multiplier circuit design.
 
 # The Mathematics
 
-Let's consider two natural numbers $$A$$ and $$B$$. We represent them in
+Let's consider two integers $$A$$ and $$B$$. We represent them in
 binary using exactly $$N$$ bits, as bit strings 
 $$a_{N-1}a_{N-2}\ldots a_0$$ 
 and
@@ -40,7 +40,7 @@ $$A - B = A + (-B)\rightarrow A + (2^N - B)$$
 
 The carry out $$2^N$$ should be **ignored** to keep the answer numerically correct.
 
-Now consider the binary multiplication $A\times B$ using the longhand method,
+Now consider the binary multiplication $$A\times B$$ using the longhand method,
 where each bit $$b_i$$ is multiplied (or logic AND) to $$a_{N-1}\ldots a_0$$ and
 then shift $$i$$ bits to the left to give a signed subproduct. The subproducts
 $$P_i$$ are added together to produce the final product $$P$$. In order to preserve
@@ -133,7 +133,7 @@ Similarly, if there is a carry at bit position $$2N$$ (i.e. $$2^{2N}$$), it shou
 >
 > $$P' = 11100010_2$$, $$C' = 2^3(2^5 - (-6)) = 00110000_2$$ 
 > (if you convert from 560 then you need to drop the leading *10* bits and leave the least 8 bits)
-> $$P' + C' = 11100010_2 + 00110000_2 = 1\,00010010_2$$ 
+> $$P' + C' = 11100010_2 + 00110000_2 = \cancel{1}00010010_2$$ 
 > which gives **18** when carry out is discarded.
 
 In the next part, I will discuss what this mathematical analysis means to the multiplier design in digital electronics.
