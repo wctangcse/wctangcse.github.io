@@ -78,7 +78,7 @@ Let's rewrite the above table based on this:
 
 This means that when the counter counts up, $$A$$ = 0 to all FAs and $$C_{in0}$$ = 1. 
 Similarly $$A$$ = 1 and $$C_{in0}$$ = 0 when we count down 
-(1111 is 2's complement representation of -1, isn't it?)
+(1111 is the 2's complement representation of -1, isn't it?)
 
 You can now try to complete the table for rows 1 & 3. Then you should be able to
 work out the additional gates and connections required (if not, you can read on
