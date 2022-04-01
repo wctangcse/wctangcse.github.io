@@ -79,7 +79,7 @@ For now, I consider only unsigned numbers (i.e. zero and natural numbers).
 Given a number $X$ of $N$ decimal digits, we define the 10's complement of
 $$X$$ as:
 
-$$Tenscomp(X) = 10^N - X = (10^N) - X + 1 = 9\ldots99 - X + 1$$
+$$Tenscomp(X) = 10^N - X = (10^N - 1) - X + 1 = 9\ldots99 - X + 1$$
 
 So the 10's complement can be found by looking up the table above for each of
 the digits of $$X$$ followed by adding an extra one. 
